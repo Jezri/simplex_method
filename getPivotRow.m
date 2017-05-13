@@ -1,5 +1,5 @@
 function pivotRow = getPivotRow(tableau, pivotCol)
-pivotRow= findMin(tableau(2:end,end),tableau(2:end,pivotCol));
+pivotRow= findMin(tableau(2:end,end),tableau(2:end,pivotCol))+1;
 end
 
 function ind = findMin(a, b)
